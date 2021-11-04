@@ -1,0 +1,12 @@
+{
+    "name": "doyomay/technogi-test",
+    "authors": [
+        {
+            "name": "Gerardo May",
+            "email": "cgme.may@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}

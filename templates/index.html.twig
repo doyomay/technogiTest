@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+    </head>
+    <body>
+        {{ loginHeaderText }}
+        {% if isAdminLogin %}
+        <h1>ADMIN</h1>
+        {% endif %}
+        <form action="">
+            <label for="">
+                username
+                <input type="text">
+            </label>
+            <label for="">
+                password
+                <input type="password" name="" id="">
+            </label>
+            {{ submitButtonHTML|raw }}     {# var won't be escaped #}
+        </form>
+        <h3>Total site logins: {{ totalSiteLogins|number_format }}</h3>
+    </body>
+</html>
